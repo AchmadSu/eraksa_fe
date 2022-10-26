@@ -1,15 +1,19 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <LoginForm></LoginForm>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+import LoginForm from './components/LoginForm.vue';
+// import { createApp } from 'vue';
+// import Antd from 'ant-design-vue';
+// import App from './App';
+import 'ant-design-vue/dist/antd.css';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    LoginForm
   }
 }
 </script>
